@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(217, 255, 161);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#myName {
+    color: darkslategray;
+    text-align: center;
+}
+
+ul {
+    list-style-type:square;
+}
+
+.coolStuff {
+    font-size: x-large;
+}
