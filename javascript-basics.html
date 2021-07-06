@@ -15,8 +15,57 @@ July 1, 2021 -->
             <li>Inspect the page by right clicking the page and selecting "Inspect" from the menu. You can also press <code>Ctrl+Shift+I</code>.</li>
             <li>The screen should have changed and now you should see a new box on the side of your browser. This is the Inspection window.</li>
             <li>At the top of the Inspection window you will see a tab called <code>Console</code>. Click on it to open up the console and view the output of your JavaScript <code>console.log()</code> function.</li>
-            <li>Link a JavaScript file to this HTML page by adding a <code>&lt;script&gt;</code> tag in the head. Click <a href="https://www.w3schools.com/tags/att_script_src.asp">here</a> for more information about linking your <code>.js</code> file.</li>
-            <li>Follow the instructions given on Canvas to write JavaScript code and observe the results on the Inspection window!</li>
+            <li>Go back to Visual Studio Code and link a JavaScript file to this HTML page by adding a <code>&lt;script&gt;</code> tag in the head. Click <a href="https://www.w3schools.com/tags/att_script_src.asp">here</a> for more information about linking your <code>.js</code> file.</li>
+            <li>Follow the instructions given on Canvas (also below) to write JavaScript code in Visual Studio Code and then observe the results here on the Inspection window!</li>
         </ol>
+        <br>
+        <h2>Instructions</h2>
+<p> Make your changes in a new file called&nbsp;<code>script.js</code>:</p>
+<ol>
+
+        <li style="text-align: left;">Create a JavaScript file in your project folder. Link this file to your <code class="webm-code">.html</code> file by adding a script tag in your <code class="webm-code">.html</code> page.</li>
+        <li style="text-align: left;">At the top of your JavaScript file, create a constant variable called <code class="webm-code">firstName</code> and set its value to your first name. Next, create another constant variable called <code class="webm-code">lastName</code> and set its value to your last name. Then, log both of them to the console using <code class="webm-code">console.log()</code>.</li>
+        <li style="text-align: left;">Make a new function called <code class="webm-code">myFullName()</code> that takes two arguments: (1) <code class="webm-code">fName</code> and (2) <code class="webm-code">lName</code>. In the function body,&nbsp;<span style="text-decoration: underline;"><em>let</em></span> there be a new variable called <code class="webm-code">fullName</code> that is your first and last names concatenated (put together). Then, log your <code class="webm-code">fullName</code> variable to the console. Finally, call the function, passing in the&nbsp;<code class="webm-code">firstName</code> and <code class="webm-code">lastName</code> variables you previously created as parameters. Remember that a function can be created by using the <code class="webm-code">function</code> keyword, assigning the function a name, and then including parameters inside parentheses <code class="webm-code">(parameter1, parameter2)</code>. What the function will actually do is defined between curly brackets <code class="webm-code">{ console.log("hello world"); }</code>:</li>
+
+<pre>Example:<br />function getSumOfTwoNumbers(number1, number2) {<br />    return number1 + number2<br />};<br />getSumOfTwoNumbers(4, 5)</pre>
+
+        <li style="text-align: left;">Create an array using let that has different animal names in it. Then, use a&nbsp;<code class="webm-code">for</code> loop to log each one to the console.</li>
+        <li style="text-align: left;">Create an object called <code class="webm-code">bestFriend</code> that has three fields: <code class="webm-code">firstName</code>, <code class="webm-code">lastName</code>, and <code class="webm-code">age</code>. Then, log it to the console.</li>
+        <li style="text-align: left;">Create a variable using <code class="webm-code">let</code> called <code class="webm-code">friends</code>. Let <code class="webm-code">friends</code> be an array of objects with three fields: <code class="webm-code">firstName</code>, <code class="webm-code">lastName</code>, and <code class="webm-code">age</code>. Then, log the friend to the console. Remember that an array is defined using square brackets <code class="webm-code">[0, 1, 2, 3]</code> while an object is defined using curly brackets and key-value pairs <code class="webm-code">{ species: "chicken", numberOfFeet: 2 }</code>. Thus, <span style="text-decoration: underline;">a single friend</span> will look something like this:</li>
+
+<pre>Example:<br />let friend = { <br />    firstName: 'Hayden', <br />    lastName: 'Hoopes', <br />    age: 23 <br />};</pre>
+
+        <li>Construct a <code class="webm-code">for</code> loop that passes through each <code class="webm-code">friend</code> in your array of <code class="webm-code">friends</code> and logs their first name to the console. Remember that a <code class="webm-code">for</code> loop uses the key word <code class="webm-code">for</code> followed by parentheses <code class="webm-code">(chicken of chickens)</code> which define what the individual array element will be called from the entire array that has already been defined. What the loop actually does will be contained in curly brackets <code class="webm-code">{ console.log(chicken.numberOfFeet) }</code>:</li>
+
+<pre>Example:<br />let arrayOfNumbers = [0, 1, 2, 3];<br />let sum = 0;<br />for (number of arrayOfNumbers) {<br />    sum = sum + number;<br />}<br />console.log(sum);   // sum will equal 6</pre>
+
+        <li>Define a constant variable called <code class="webm-code">myAge</code> that is set to your current age. Construct a <code class="webm-code">for</code> loop that logs each of your friendss first name and age to the console only if they are younger than you. Do not log the name or age of friends who are your same age or older. Remember that an <code class="webm-code">if</code> statement looks like this:</li>
+
+</ol>
+<pre>Example:<br />if (friend.numberOfChickens != 8) {<br />    console.log(friend.name + " does not have 8 chickens");<br />} else {<br />    console.log(friend.name + " has exactly 8 chickens!");<br />}</pre>
+<h4>EXTRA CREDIT:</h4>
+<ol>
+    <li>&nbsp;
+        <ol style="list-style-type: upper-alpha;">
+            <li>Make a variable called <code class="webm-code">totalAge</code> using the <code class="webm-code">let</code> keyword and set the value to 0.</li>
+            <li>Then make another variable called <code class="webm-code">numberOfFriends</code> using the <code class="webm-code">let</code> keyword and set it to equal to the <a class="inline_disabled" href="https://www.w3schools.com/jsref/jsref_length_array.asp" target="_blank" rel="noopener">length</a> of the <code class="webm-code">friends</code> array.</li>
+            <li>Finally, construct a <code class="webm-code">for</code> loop that adds the age of each friend to <code class="webm-code">totalAge</code>. After the for loop, log the result of <code class="webm-code">totalAge</code> divided by <code class="webm-code">numberOfFriends</code> to the console to see the average age of your friends.</li>
+        </ol>
+    </li>
+    <li>Play around using the <a class="inline_disabled" href="https://www.w3schools.com/js/js_dates.asp" target="_blank" rel="noopener">Date()</a> object and see if you can figure out how many days it has been since you were born.</li>
+    <li>See if you can figure out how to <a class="inline_disabled" href="https://www.w3schools.com/js/js_array_sort.asp" target="_blank" rel="noopener">sort</a> a numerical array in JavaScript; it might be harder than you think!</li>
+</ol>
+<p>Here is a <a class="inline_disabled" href="https://haydenhoopes.github.io/btech-summer-camp-2021-day-1/javascript-basics.html" target="_blank" rel="noopener">completed version</a> of what the end result will look like.</p>
     </body>
+    <style>
+        pre {
+            background-color: rgb(220, 243, 250);
+            padding: 1.5em 1.5em 1.5em 1.5em;
+            margin: 1.5em 1.5em 1.5em 1.5em;
+            border-radius: 1.5em;
+        }
+        li {
+            margin-bottom: 1em;
+        }
+    </style>
 </html>
