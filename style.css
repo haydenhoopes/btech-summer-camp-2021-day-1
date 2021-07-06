@@ -17,3 +17,6 @@ ul {
     font-size: x-large;
     color:rgb(47, 94, 247)
 }
+#meme-canvas {
+    width: 50vw;
+}

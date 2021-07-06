@@ -1,0 +1,81 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+.nav {
+    background-color: lightgray;
+    height: 100px;
+}
+
+.hero {
+    background-color: orange;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    background: url('boy.jpg') center no-repeat;
+    background-size: cover;
+    width: 1439px;
+    height: 615px;
+    text-align: center;
+}
+
+.other-h1-class {
+    color: red;
+}
+
+.item-row {
+    background-color: lightgray;
+    height: 400px;
+}
+
+.items,
+.footer-items {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.item {
+    text-align: center;
+    width: 250px;
+}
+
+.item-img {
+    width: 90%;
+}
+
+.item-img img {
+    width: 100%;
+    margin: 10px;
+}
+
+.page-item {
+    background-color: green;
+    width: 250px;
+    height: 220px;
+    text-align: center;
+}
+
+.footer {
+    height: 175px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item a {
+    color: white;
+}
