@@ -47,9 +47,12 @@ for (friend of friends) {
 
 // Extra Credit
 console.log("******* This part is extra credit ********");
-let totalAge = 0;
-let numberOfFriends = friends.length;
-for (friend of friends) {
-    totalAge += friend.age;
+let arr = [1,3,7,7,7,99,45,12,14,63,23,23];
+console.log("The array is " + String(arr));
+let total = 0;
+let numberOfEntries = arr.length;
+for (entry of arr) {
+    total += entry;
 }
-console.log(totalAge/numberOfFriends + " is the average age");
+console.log(total/numberOfEntries + " is the average");
+
