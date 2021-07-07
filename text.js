@@ -58,8 +58,4 @@ document.querySelector('#content').innerHTML = "<h1>JavaScript Basics Assignment
         + "body {"
             + "margin: 6em 6em 6em 6em;"
         + "}"
-        + "ol:first-of-type li:first-child {"
-            + "color:aqua;"
-            + "content: 'If you are seeing these instructions, you have already completed this step.';"
-        + "}"
     + "</style>"
